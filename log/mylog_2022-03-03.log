@@ -1,0 +1,50 @@
+2022-03-03 11:31:11,434 - roots-online - INFO - open url:https://www.roots.com/on/demandware.store/Sites-RootsCA-Site/en_CA/Account-Show
+2022-03-03 11:31:11,617 - roots-online - INFO - maxmize the window
+2022-03-03 11:31:13,654 - roots-online - ERROR - cannot find the element
+2022-03-03 11:31:13,655 - roots-online - ERROR - the element is unclickable('xpath', "//span[@class='ui-icon ui-icon-closethick']")
+2022-03-03 11:31:13,656 - roots-online - INFO - close the popup
+2022-03-03 11:31:15,923 - roots-online - INFO - input the text1659145340@qq.com
+2022-03-03 11:31:16,239 - roots-online - INFO - input the text1204fighting
+2022-03-03 11:31:17,323 - roots-online - INFO - click the element:('id', 'lbl_dwfrm_login_rememberme')
+2022-03-03 11:31:22,384 - roots-online - INFO - click the element:('id', 'login')
+2022-03-03 11:31:27,712 - roots-online - INFO - click the element:('xpath', "//a[contains(@class,'mini-cart-link-cart')]")
+2022-03-03 11:31:31,809 - roots-online - ERROR - the element is unclickable('xpath', "//a[@id='removeGiftOptions']")
+2022-03-03 11:31:36,005 - roots-online - INFO - click the element:('xpath', "//span[@class='remove']")
+2022-03-03 11:31:40,314 - roots-online - INFO - quit the driver
+2022-03-03 11:31:48,722 - roots-online - INFO - send successfully
+2022-03-03 13:11:37,305 - roots-online - INFO - open url:https://www.roots.com/on/demandware.store/Sites-RootsCA-Site/en_CA/Account-Show
+2022-03-03 13:11:37,737 - roots-online - INFO - maxmize the window
+2022-03-03 13:11:39,767 - roots-online - ERROR - cannot find the element
+2022-03-03 13:11:39,768 - roots-online - ERROR - the element is unclickable('xpath', "//span[@class='ui-icon ui-icon-closethick']")
+2022-03-03 13:11:39,769 - roots-online - INFO - close the popup
+2022-03-03 13:11:41,922 - roots-online - INFO - input the text1659145340@qq.com
+2022-03-03 13:11:42,166 - roots-online - INFO - input the text1204fighting
+2022-03-03 13:11:43,244 - roots-online - INFO - click the element:('id', 'lbl_dwfrm_login_rememberme')
+2022-03-03 13:11:46,350 - roots-online - INFO - click the element:('id', 'login')
+2022-03-03 13:11:46,638 - roots-online - ERROR - the elements is unclickable
+2022-03-03 13:11:48,663 - roots-online - ERROR - cannot find the element
+2022-03-03 13:11:48,665 - roots-online - ERROR - the element is unclickable('xpath', "//a[contains(@class,'mini-cart-link-cart')]")
+2022-03-03 13:11:52,744 - roots-online - ERROR - cannot find the element
+2022-03-03 13:11:52,745 - roots-online - ERROR - the element is unclickable('xpath', "//a[@id='removeGiftOptions']")
+2022-03-03 13:11:56,795 - roots-online - ERROR - cannot find the element
+2022-03-03 13:11:56,796 - roots-online - ERROR - the element is unclickable('xpath', "//span[@class='remove']")
+2022-03-03 13:12:01,065 - roots-online - INFO - quit the driver
+2022-03-03 13:12:09,168 - roots-online - INFO - send successfully
+2022-03-03 20:44:35,241 - roots-online - INFO - open url:https://www.roots.com/on/demandware.store/Sites-RootsCA-Site/en_CA/Account-Show
+2022-03-03 20:44:35,710 - roots-online - INFO - maxmize the window
+2022-03-03 20:44:37,762 - roots-online - ERROR - cannot find the element
+2022-03-03 20:44:37,764 - roots-online - ERROR - the element is unclickable('xpath', "//span[@class='ui-icon ui-icon-closethick']")
+2022-03-03 20:44:37,765 - roots-online - INFO - close the popup
+2022-03-03 20:44:39,987 - roots-online - INFO - input the text1659145340@qq.com
+2022-03-03 20:44:40,267 - roots-online - INFO - input the text1204fighting
+2022-03-03 20:44:41,452 - roots-online - INFO - click the element:('id', 'lbl_dwfrm_login_rememberme')
+2022-03-03 20:44:45,250 - roots-online - INFO - click the element:('id', 'login')
+2022-03-03 20:44:45,397 - roots-online - ERROR - the elements is unclickable
+2022-03-03 20:44:47,427 - roots-online - ERROR - cannot find the element
+2022-03-03 20:44:47,429 - roots-online - ERROR - the element is unclickable('xpath', "//a[contains(@class,'mini-cart-link-cart')]")
+2022-03-03 20:44:51,538 - roots-online - ERROR - cannot find the element
+2022-03-03 20:44:51,540 - roots-online - ERROR - the element is unclickable('xpath', "//a[@id='removeGiftOptions']")
+2022-03-03 20:44:55,652 - roots-online - ERROR - cannot find the element
+2022-03-03 20:44:55,656 - roots-online - ERROR - the element is unclickable('xpath', "//span[@class='remove']")
+2022-03-03 20:45:00,002 - roots-online - INFO - quit the driver
+2022-03-03 20:45:08,618 - roots-online - INFO - send successfully
