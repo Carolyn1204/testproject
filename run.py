@@ -6,9 +6,13 @@ sys.path.append(rootPath)
 
 import unittest, HTMLTestRunner
 from time import sleep
-from testproject.config import global_parameters as gp
-from testproject.src.common import base
-from testproject.util import send_email
+# from testproject.config import global_parameters as gp
+# from testproject.src.common import base
+# from testproject.util import send_email
+
+from config import global_parameters as gp
+from src.common import base
+from util import send_email
 
 
 
