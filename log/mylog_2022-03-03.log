@@ -48,3 +48,5 @@
 2022-03-03 20:44:55,656 - roots-online - ERROR - the element is unclickable('xpath', "//span[@class='remove']")
 2022-03-03 20:45:00,002 - roots-online - INFO - quit the driver
 2022-03-03 20:45:08,618 - roots-online - INFO - send successfully
+2022-03-03 21:27:51,138 - roots-online - INFO - open url:https://www.roots.com/on/demandware.store/Sites-RootsCA-Site/en_CA/Account-Show
+2022-03-03 21:27:59,620 - roots-online - INFO - send successfully

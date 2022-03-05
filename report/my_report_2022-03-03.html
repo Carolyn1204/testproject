@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>Test Report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2022-03-03 20:44:31</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:28.183886</p>
-<p class='attribute'><strong>Status:</strong> Pass 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2022-03-03 21:27:47</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:03.708298</p>
+<p class='attribute'><strong>Status:</strong> Error 1</p>
 <p class='attribute'><strong>测试人员:</strong> </p>
 
 <p class='description'>Report of testproject</p>
@@ -222,26 +222,133 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>first_test.TestCases</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_02_empty_shopping_bag</div></td>
-    <td colspan='5' align='center'>pass</td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_02_empty_shopping_bag</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
+
+    <div id='div_ft1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft1.1: Traceback (most recent call last):
+  File "C:\Users\carol\PycharmProjects\testproject\testproject\src\test_cases\first_test.py", line 27, in setUp
+    lp.login(gp.username, gp.password)
+  File "C:\Users\carol\PycharmProjects\testproject\testproject\src\common\login_page.py", line 23, in login
+    self.maximize_window()
+  File "C:\Users\carol\PycharmProjects\testproject\testproject\src\common\base.py", line 72, in maximize_window
+    self.driver.maximize_window()
+  File "C:\Users\carol\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 984, in maximize_window
+    self.execute(command, params)
+  File "C:\Users\carol\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\carol\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No target with given id"}
+  (Session info: chrome=96.0.4664.45)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x006F6903+2517251]
+	Ordinal0 [0x0068F8E1+2095329]
+	Ordinal0 [0x00592848+1058888]
+	Ordinal0 [0x005852F8+1004280]
+	Ordinal0 [0x00584169+999785]
+	Ordinal0 [0x00584357+1000279]
+	Ordinal0 [0x00584308+1000200]
+	Ordinal0 [0x0057C59A+968090]
+	Ordinal0 [0x0057C93C+969020]
+	Ordinal0 [0x005F574F+1464143]
+	Ordinal0 [0x005D64D3+1336531]
+	Ordinal0 [0x005E5BBF+1399743]
+	Ordinal0 [0x005D639B+1336219]
+	Ordinal0 [0x005B27A7+1189799]
+	Ordinal0 [0x005B3609+1193481]
+	GetHandleVerifier [0x00885904+1577972]
+	GetHandleVerifier [0x00930B97+2279047]
+	GetHandleVerifier [0x00786D09+534521]
+	GetHandleVerifier [0x00785DB9+530601]
+	Ordinal0 [0x00694FF9+2117625]
+	Ordinal0 [0x006998A8+2136232]
+	Ordinal0 [0x006999E2+2136546]
+	Ordinal0 [0x006A3541+2176321]
+	BaseThreadInitThunk [0x75D8FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D27A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D27A6E+238]
+
+Traceback (most recent call last):
+  File "C:\Users\carol\PycharmProjects\testproject\testproject\src\test_cases\first_test.py", line 27, in setUp
+    lp.login(gp.username, gp.password)
+  File "C:\Users\carol\PycharmProjects\testproject\testproject\src\common\login_page.py", line 23, in login
+    self.maximize_window()
+  File "C:\Users\carol\PycharmProjects\testproject\testproject\src\common\base.py", line 72, in maximize_window
+    self.driver.maximize_window()
+  File "C:\Users\carol\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 984, in maximize_window
+    self.execute(command, params)
+  File "C:\Users\carol\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 424, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\carol\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: unknown error: unhandled inspector error: {"code":-32000,"message":"No target with given id"}
+  (Session info: chrome=96.0.4664.45)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x006F6903+2517251]
+	Ordinal0 [0x0068F8E1+2095329]
+	Ordinal0 [0x00592848+1058888]
+	Ordinal0 [0x005852F8+1004280]
+	Ordinal0 [0x00584169+999785]
+	Ordinal0 [0x00584357+1000279]
+	Ordinal0 [0x00584308+1000200]
+	Ordinal0 [0x0057C59A+968090]
+	Ordinal0 [0x0057C93C+969020]
+	Ordinal0 [0x005F574F+1464143]
+	Ordinal0 [0x005D64D3+1336531]
+	Ordinal0 [0x005E5BBF+1399743]
+	Ordinal0 [0x005D639B+1336219]
+	Ordinal0 [0x005B27A7+1189799]
+	Ordinal0 [0x005B3609+1193481]
+	GetHandleVerifier [0x00885904+1577972]
+	GetHandleVerifier [0x00930B97+2279047]
+	GetHandleVerifier [0x00786D09+534521]
+	GetHandleVerifier [0x00785DB9+530601]
+	Ordinal0 [0x00694FF9+2117625]
+	Ordinal0 [0x006998A8+2136232]
+	Ordinal0 [0x006999E2+2136546]
+	Ordinal0 [0x006A3541+2176321]
+	BaseThreadInitThunk [0x75D8FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77D27A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77D27A6E+238]
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td> </td>
 </tr>
 </table>
