@@ -4,8 +4,8 @@ import time
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
-from ..config import global_parameters as gp
-from ..util import logger
+from testproject.config import global_parameters as gp
+from testproject.util import logger
 
 
 report_path = gp.report_path

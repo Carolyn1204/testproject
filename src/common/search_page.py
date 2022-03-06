@@ -3,7 +3,7 @@ from time import sleep
 from selenium import webdriver
 from selenium.webdriver import Keys
 from selenium.webdriver.common.by import By
-from base import BaseClass
+from testproject.src.common.base import BaseClass
 
 
 class SearchPage(BaseClass):

@@ -4,7 +4,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 # from testproject.src.common.search_page import BaseClass
 
-from base import BaseClass
+from testproject.src.common.base import BaseClass
 
 
 class ItemDetailPage(BaseClass):
