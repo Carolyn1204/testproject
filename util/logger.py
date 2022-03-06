@@ -1,8 +1,8 @@
 import datetime
 import logging
 
-from testproject.config import global_parameters as gp
-from testproject.src.common import base
+from ..config import global_parameters as gp
+from ..src.common import base
 
 class LogUtil:
     def __init__(self):

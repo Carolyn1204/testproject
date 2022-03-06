@@ -1,6 +1,9 @@
 import os
 from datetime import time
 from selenium import webdriver
+import os, sys
+item_detail_page_path = os.path.abspath(os.path.join('..'))
+sys.path.append(item_detail_page_path)
 
 '''project_path'''
 project_path = os.path.dirname(os.path.dirname(os.path.realpath(__file__)))

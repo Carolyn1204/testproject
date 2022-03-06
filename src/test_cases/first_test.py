@@ -1,16 +1,27 @@
 import unittest
 import warnings
 from time import sleep
+from selenium.webdriver.common.by import By
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
-from selenium.webdriver.common.by import By
-from testproject.src.common.item_detail_page import ItemDetailPage
-from testproject.src.common.item_list_page import ItemListPage
-from testproject.src.common.login_page import LoginPage
-from testproject.src.common.search_page import SearchPage
-from testproject.src.common.shopping_bag_page import ShoppingBagPage
-from testproject.config import global_parameters as gp
-from testproject.src.common.base import BaseClass
+# from selenium.webdriver.common.by import By
+# from testproject.src.common.item_detail_page import ItemDetailPage
+# from testproject.src.common.item_list_page import ItemListPage
+# from testproject.src.common.login_page import LoginPage
+# from testproject.src.common.search_page import SearchPage
+# from testproject.src.common.shopping_bag_page import ShoppingBagPage
+# from testproject.config import global_parameters as gp
+# from testproject.src.common.base import BaseClass
+
+
+from ..common.item_detail_page import ItemDetailPage
+from ..common.item_list_page import ItemListPage
+from ..common.login_page import LoginPage
+from ..common.search_page import SearchPage
+from ..common.shopping_bag_page import ShoppingBagPage
+from ..common.base import BaseClass
+from ...config import global_parameters as gp
+
 import ddt
 import yaml
 

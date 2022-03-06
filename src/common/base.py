@@ -5,17 +5,16 @@ from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.support import expected_conditions as EC
 from time import sleep
 from selenium import webdriver
-from testproject.config import global_parameters as gp
-from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
-from testproject.util import logger
+from selenium.webdriver.common.by import By
+from ...config import global_parameters as gp
+from ...util import logger
 
 
 class BaseClass(object):
     def __init__(self, my_driver=gp.driver):
         self.driver = my_driver
         self.mylog = logger.LogUtil()
-
 
     @staticmethod
     def current_date():
@@ -135,6 +134,7 @@ class BaseClass(object):
     #     except:
     #         flag = False
     #         return flag
+
 
 if __name__ == '__main__':
     b = BaseClass()
